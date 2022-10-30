@@ -18,7 +18,7 @@ const placesLibrary = [
   'News cafe',
   'Milano',
 ]
-const button = document.querySelector('.shufle')
+const button = document.querySelector('.shuffle')
 const display = document.querySelector('.display')
 let place = ''
 const randomizer = () => {
