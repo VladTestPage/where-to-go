@@ -25,21 +25,12 @@ body {
 }
 
 .display__title {
+  text-decoration: none;
   text-transform: uppercase;
   font-family: Helvetica, sans-serif;
   font-size: 60px;
   color: white;
   user-select: none;
-}
-
-.display__link {
-  text-decoration: none;
-  font-family: Helvetica, sans-serif;
-  font-size: 30px;
-  color: white;
-  user-select: none;
-  margin-top: 20px;
-  opacity: 0.5;
 }
 
 .shuffle {

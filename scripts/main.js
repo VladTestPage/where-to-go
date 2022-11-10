@@ -21,7 +21,6 @@ const placesLibrary = [
 ]
 const button = document.querySelector('.shuffle')
 const displayTitle = document.querySelector('.display__title')
-const displayLink = document.querySelector('.display__link')
 let place = ''
 const randomizer = () => {
   let index = Math.floor(Math.random() * placesLibrary.length)
@@ -31,6 +30,5 @@ const randomizer = () => {
 
 button.addEventListener('click', () => {
   randomizer()
-  displayTitle.innerText = place[0]
-  displayLink.innerHTML = `<a class="display__link" href="${place[1]}" target="_blank">Instagram</a>`
+  displayTitle.innerHTML = `<a class="display__title" href="${place[1]}" target="_blank">${place[0]}</a>`
 })
